@@ -14,8 +14,10 @@ public class StringDivide {
 		Scanner input = new Scanner(System.in);
 		String str = input.nextLine();
 		Matcher matcher = Pattern.compile("\\w+").matcher(str);
-		while (matcher.find())
-			System.out.printf("%s ",matcher.group());
-
+		String[] result = str.split("\\W");
+		for (String item:result
+			 ) {
+			System.out.println(item);
+		}
 	}
 }
