@@ -1,1 +1,1 @@
-package _1;/** * Created by 28013 on 2016/9/5 0005. */public class leap_year {	public static void main(String[] args){		for (int i = 2000; i <= 3000 ; i++)			if(i % 400 == 0 || i % 100 != 0 && i % 4 == 0)				System.out.println(i);	}}
+package _1;/** * Created by 28013 on 2016/9/5 0005. */public class leap_year {    public static void main(String[] args) {        for (int i = 2000; i <= 3000; i++)            if (i % 400 == 0 || i % 100 != 0 && i % 4 == 0)                System.out.println(i);    }}
