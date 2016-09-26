@@ -29,16 +29,17 @@ public class ComplexClass {
         }
 
         public String display() {
-           return String.format("%f+%fi", real, imaginary);
+            return String.format("%f+%fi", real, imaginary);
         }
     }
-    public static void main(String[] args){
-        Complex a = new Complex(1,2), b = new Complex(3,4);
+
+    public static void main(String[] args) {
+        Complex a = new Complex(1, 2), b = new Complex(3, 4);
         Complex sum = a.add(b);
         Complex delta = a.minus(b);
         Complex prodect = a.times(b);
         Complex quetient = a.devide(b);
         System.out.printf("a:%s\t b:%s\nsum: %s\ndelta: %s\nprodect: %s\nquetient: %s\n",
-                a.display(),b.display(),sum.display(), delta.display(), prodect.display(), quetient.display());
+                a.display(), b.display(), sum.display(), delta.display(), prodect.display(), quetient.display());
     }
 }
