@@ -1,8 +1,6 @@
 package _1;
 
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created by 28013 on 2016/9/6 0006.
