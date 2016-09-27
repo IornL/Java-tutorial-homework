@@ -1,3 +1,3 @@
 # Iron's code for java tutorial
-- the code is in folder: src
-- 帮忙点一下上面的Star~
+- 代码在src目录下
+- 帮忙点一下右上角的Star~
